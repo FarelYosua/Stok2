@@ -1,0 +1,74 @@
+body {
+  font-family: poppins;
+  background-color: aliceblue;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #16423c;
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #6a9c89;
+}
+ul {
+  text-align: center;
+  list-style: none;
+}
+li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+nav a:link {
+  color: #e9efec;
+  background-color: transparent;
+  text-decoration: none;
+}
+nav a:visited {
+  color: #e9efec;
+  background-color: transparent;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #c4dad2;
+  background-color: transparent;
+  text-decoration: none;
+}
+nav a:active {
+  color: #c4dad2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 75%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #16423c;
+}
+th,
+td {
+  padding: 10px;
+}
+th {
+  background-color: #c4dad2;
+  color: #16423c;
+}
+.tombol_create {
+  font-family: poppins;
+}
+th .stok-habis {
+  background-color: red;
+  color: white;
+}
